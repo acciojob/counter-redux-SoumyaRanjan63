@@ -8,8 +8,8 @@ const CounterApp = () => {
     return (
         <div>
             <h1>{count}</h1>
-            <button onClick={()=>dispatch(increment())}>Increment</button>
-            <button onClick={()=>dispatch(decrement())}>Decrease</button>
+            <button onClick={()=>dispatch(increment())}>increment</button>
+            <button onClick={()=>dispatch(decrement())}>decrease</button>
 
         </div>
     );
